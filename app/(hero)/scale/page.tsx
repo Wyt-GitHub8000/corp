@@ -2,10 +2,10 @@ import { Metadata } from "next";
 import Hero from "../../../components/hero"
 import ScaleImg from "../../../public/4.jpeg";
 
-// export const metadata: Metadata = {
-//     title: 'Scale',
-//     description: 'Welcome to my scale'
-// }
+export const metadata: Metadata = {
+    title: 'Scale',
+    description: 'Welcome to my scale'
+}
 
 export default function Scale() {
     return (

@@ -21,7 +21,6 @@ const linkList = [
     那么就有人问了，为啥不直接在layout组件中判断呢，因为layout组件规定时服务端组件，而获取页面路径的 usePathname只能在客户端组件中使用（试过了在layout组件中加入 use client next会直接报错），所以只能在这里判断
  */
 
-const whiteList = ['/', '/performance', '/reliability', '/scale']
 
 export default function Header() {
     const pathname = usePathname()
