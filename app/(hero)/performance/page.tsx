@@ -8,6 +8,6 @@ export const metadata: Metadata = {
 }
 export default function Performance() {
     return (
-        <Hero imgUrl={PerformanceImg} altText="performance" content="Performance~~~" />
+        <Hero imgUrl={PerformanceImg} altText="performance" content="I am Performance" />
     )
 }

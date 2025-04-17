@@ -8,6 +8,6 @@ export const metadata: Metadata = {
 }
 export default function Reliability() {
     return (
-        <Hero imgUrl={ReliabilityImg} altText="reliability" content="Reliability~~~" />
+        <Hero imgUrl={ReliabilityImg} altText="reliability" content="I am Reliability" />
     )
 }
